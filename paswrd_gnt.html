@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="paswrd_gnt.css">
+</head>
+<body>
+    <div class="main">
+        <h2 class="head">PASSWORD GENERATOR</h2>
+        <input type="text" id="input">
+        <p>Password Settings:-</p>
+        <input type="checkbox" name="one" id="upper">
+        <label for="one">UpperCase(A_Z)</label>
+        <br>
+        <input type="checkbox" id="lower">
+        <label for="one">LowerCase(a_z)</label>
+        <br>
+        <input type="checkbox" id="number">
+        <label for="one">Numbers(0-9)</label>
+        <br>
+        <input type="checkbox" id="symbol">
+        <label for="one">SpecialSymbols(~,!,@,#,$)</label>
+        <br>
+        <button id="btn" onclick="generate()">Generate password</button>
+        <button id="btn" onclick="reset()">Reset</button>
+    </div>
+    <script src="dd.js"></script>
+</body>
+</html>
